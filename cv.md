@@ -5,8 +5,11 @@
 ---
 
 Tel: +375447143417
+
 E-mail: krivets2005@gmail.com
+
 Linkedin: https://www.linkedin.com/in/aliaksei-kryvets
+
 Discord: @AlexKrivets
 
 ---
