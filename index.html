@@ -6,12 +6,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/img/favicon.ico" />
     <title>CV</title>
 </head>
 
 <body>
-    <div class="header"></div>
-    <img class="logo" src="" alt="" />
+    <header class="container">
+        <!-- <div class="container"> -->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About me</a>
+                </li>
+                <!-- <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li> -->
+                <li class="nav-item">
+                    <a href="#codeexample" class="nav-link">Сode example </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="#courses" class="nav-link">Courses</a>
+                </li> -->
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="#languages" class="nav-link">Languages</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- </div> -->
+    </header>
+    <main class="container">
+        <div class="main-container">
+            <div class="section-photo section">
+                <img class="section__photo--style" src="./assets/img/avatar.jpg" alt="" />
+            </div>
+            <div class="section-title section">
+                <h1 class="section-title--style">Aliaksei Kryvets</h1>
+            </div>
+            <section class="section contact__view" id="contacts">
+                <h4>Minsk, Belarus</h4>
+                <p>
+                    E-mail:
+                    <a class="contact-style" href="mailto:krivets2005@mail.ru">krivets2005@mail.ru</a
+						></p>
+					<p>
+						Tel:
+						<a class="contact-style" href="tel:+375447143417">+375447143417</a>
+                </p>
+                <p>
+                    <a class="section__portfolio contact-style" href="https://alexkrivets.github.io/Portfolio/build/">
+                    Portfolio</a> </p>
+                <p>
+                    <a class="contact-style" href="https://www.linkedin.com/in/aliaksei-kryvets
+
+                        ">Linkedin
+						</a>
+                </p>
+                <p>Discort : @AlexKrivets</p>
+            </section>
+            <section class="section" id="about">
+                <h4 class="section__about">About me.</h4>
+                I am constantly developing my skills in this area. I am good at dealing with people. I would have liked to improved my skills, enhanced my knowledge and achieved a higher position. Make the world more comfortable and perfect. I took a of Front-end development
+                lvl1(HTML\CSS) at the IT SHATLE and studying in the course of Front-end development lvl2(JavaScript + react) . I am constantly developing my skills in this area. I have knowledge of HTML / CSS. Preprocessors - SASS / LESS, CSS Framework
+                - PUG, Graphics - Figma Version control - Git, Github.
+            </section>
+
+            <!-- <section class="section" id="portfolio">
+
+            </section> -->
+
+            <section class="section" id="codeexample">
+                <h4>Code Example</h4>
+                <code>
+						function isEven(a){ is (a % 2 === 0) </br>
+                            { return true; } return false; }</br>
+						console.log(isEven(4));</br> console.log(isEven(5));</br>
+					</code>
+            </section>
+            <section class="section" id="education">
+                <h4>Education</h4>
+                <p>Minsk Innovation University Manager 2008 - 2013, Minsk</p>
+                <h4>Courses</h4>
+                <p>
+                    IT SHATLE Frontend (HTML/CSS) Developer March 2022 - May 2022, Minsk
+                </p>
+                <p>
+                    IT SHATLE Frontend (JavaScript + React) May 2022 - present, Minsk
+                </p>
+            </section>
+            <!-- <section class="section" id="courses">
+
+            </section> -->
+            <section class="section" id="skills">
+                <h4>Skills</h4>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Gulp</li>
+                    <li>SCSS</li>
+                    <li>Pug</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h4>Languages</h4>
+                <ul>
+                    <li>Russian</li>
+                    <li>English (B1)</li>
+                    <li>Polish (A1)</li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__menu">
+                <a class="footer__menu--link" href="https://github.com/AlexKrivets">
+                    <img class="footer__menu--logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github__logo" /></a>
+                <a class="footer__menu--link" href="https://rs.school/js/">
+                    <img class="footer__menu--logo" src="https://rs.school/images/rs_school_js.svg" alt="logo" /></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
